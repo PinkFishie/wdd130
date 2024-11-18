@@ -3,6 +3,8 @@ nav {
     padding: 10px;
 }
 
+/* This makes the navigation buttons have white text, in order to stand out against the blue background. */
+
 nav a {
     color: white;
     display: block;
