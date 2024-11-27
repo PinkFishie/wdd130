@@ -21,14 +21,14 @@
 
 .hero h1 {
     position: absolute;
-    bottom: 325px;
+    bottom: 185px;
     left: 150px;
     font-size: 96pt;
 }
 
 .hero article {
     position: absolute;
-    bottom: 250px;
+    bottom: 125px;
     left: 50px;
     background: #BBD3DD80;
 }
