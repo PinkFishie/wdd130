@@ -7,10 +7,38 @@
 
 * {
     max-width: 1000px;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    margin: 1rem auto;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 2fr;
+    border-bottom: 1px solid var(--primary-color);
+}
+
+header img{
+    margin: 0 0.25rem 0 6rem;
+    width: auto;
+    height: auto;
+}
+
+header nav {
+    display: flex;
+}
+
+header nav a {
+    flex: 1 1 100%;
+    display: block;
+    padding: 20px;
+    text-decoration: none;
 }
 
 .hero div {
     position: relative;
+    display: inline-block;
 }
 
 .hero img {
@@ -21,16 +49,17 @@
 
 .hero h1 {
     position: absolute;
-    bottom: 185px;
+    bottom: 450px;
     left: 150px;
     font-size: 96pt;
 }
 
 .hero article {
     position: absolute;
-    bottom: 125px;
-    left: 50px;
+    bottom: 250px;
+    left: 35px;
     background: #BBD3DD80;
+    padding: 10px;
 }
 
 .hero article img {
@@ -42,6 +71,40 @@
 
 .hero article p {
     font-size: 28pt;
+}
+
+h2 {
+    text-align: center;
+    font-size: 30pt;
+}
+
+.grid1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.grid1 img {
+    width: 100%;
+    height: auto;
+    margin: 0;
+}
+
+.flexbox1 {
+    max-width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flexbox1 img {
+    width: auto;
+    width: 7.5rem;
+    height: auto;
+}
+
+figcaption {
+    text-align: center;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -58,6 +121,29 @@ a {
     color: var(--secondary-color);
 }
 
+footer div {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+}
+
+footer p {
+    grid-column: 2/span 2;
+    text-align: center;
+}
+
+footer .socials {
+    grid-column: 4/5;
+    grid-row: 1/2;
+}
+
 footer a {
     text-decoration: none;
+    margin: 0.25rem;
+}
+
+header, footer {
+    max-width: 1000px;
+    margin: 0 auto;
+    border-top: 1px solid var(--primary-color);
 }
