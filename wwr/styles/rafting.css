@@ -9,6 +9,7 @@
     max-width: 1000px;
     margin: 0;
     padding: 0;
+    margin: 0 auto;
 }
 
 main {
@@ -45,7 +46,7 @@ header nav a {
     background-color: #BBD3DD33; */
 }
 
-.hero div {
+.hero {
     position: relative;
     display: inline-block;
 }
@@ -58,14 +59,14 @@ header nav a {
 
 .hero h1 {
     position: absolute;
-    bottom: 250px;
-    left: 150px;
+    bottom: 200px;
+    left: 120px;
     font-size: 96pt;
 }
 
 .hero article {
     position: absolute;
-    bottom: 50px;
+    bottom: 225px;
     left: 35px;
     background: #BBD3DD80;
     padding: 10px;
@@ -82,7 +83,7 @@ header nav a {
     font-size: 28pt;
 }
 
-h1, legend {
+h1, legend, .likeh1 {
     text-align: center;
     font-size: 42pt;
 }
@@ -90,6 +91,12 @@ h1, legend {
 h2 {
     text-align: center;
     font-size: 30pt;
+}
+
+h3 {
+    text-align: center;
+    font-size: 26pt;
+    margin-top: 3rem;
 }
 
 .grid1 {
@@ -122,7 +129,7 @@ h2 {
 iframe {
     display: block;
     width: 763px;
-    margin: 3rem auto;
+    margin: 0.5rem auto 3rem;
 }
 
 .employee {
@@ -183,14 +190,16 @@ label {
     font-weight: 500;
 }
 
-.name-email {
+.nameemail {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
 }
 
-.name-email input {
-    max-width: 200px
+.nameemail input {
+    max-width: 220px;
     border: 1px solid rgb(0 0 128 / 0.1);
+    margin: 0 1.5rem 1rem;
 }
 
 .radio {
@@ -260,7 +269,7 @@ a {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     align-items: center;
-    margin: 0 0 1rem;
+    margin: 0.5rem 0 1rem;
 }
 
 .flexbox2 {
