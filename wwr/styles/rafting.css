@@ -516,11 +516,17 @@ label {
     justify-content: space-between;
 }
 
+.nameemail label, .purpose label {
+    font-size: 0.5pt;
+
+}
+
 .nameemail input {
     max-width: 220px;
     border: 1px solid rgb(0 0 128 / 0.1);
     margin: 0 1.5rem 1rem;
 }
+
 
 .radio {
     display: flex;
