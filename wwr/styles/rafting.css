@@ -156,7 +156,8 @@ h3 {
 
 .yellow {
     color: var(--accent2-color);
-    width: 100px;
+    background-color: rgb(0 50 0);
+    width: 1px;
 }
 
 .trip {
@@ -169,7 +170,6 @@ h3 {
 }
 
 .trip a {
-    width: auto;
     background-color: var(--accent2-color);
     color: var(--primary-color);
     border: none;
@@ -429,7 +429,7 @@ td {
 }
 
 .nextmonth {
-    color: #1A447477;
+    color: #1A4474CC;
 }
 
 .adventures img{
@@ -614,6 +614,7 @@ a {
 }
 
 .contact p {
+    color: var(--primary-color);
     text-align: left;
     grid-column: 1/2;
     grid-row: 2/3;
@@ -623,7 +624,6 @@ a {
 .contact a {
     grid-column: 2/3;
     grid-row: 2/3;
-    width: auto;
     background-color: var(--accent2-color);
     color: var(--primary-color);
     border: none;
@@ -665,7 +665,6 @@ footer a {
 }
 .socials a{
     margin: 1rem 0.2rem;
-    width: 2rem;
     border: none;
     padding: 0;
 }
