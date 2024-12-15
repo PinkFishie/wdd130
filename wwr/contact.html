@@ -30,7 +30,7 @@
             <section class="contactinfo flexbox1 content">
                 <div class="address group">
                     <div class="address icon">
-                        <img src="images/home_icon.png">
+                        <img src="images/home_icon.png" alt="House Icon">
                     </div>
                     <h2>Address</h2>
                     <p>
@@ -39,7 +39,7 @@
                 </div>
                 <div class="phone group">
                     <div class="phone icon">
-                        <img src="images/phone_icon.png">
+                        <img src="images/phone_icon.png" alt="Phone and Text Icon">
                     </div>
                     <h2>Phone Number</h2>
                     <p>
@@ -48,7 +48,7 @@
                 </div>
                 <div class="email group">
                     <div class="email icon">
-                        <img src="images/at_symbol_icon.png">
+                        <img src="images/at_symbol_icon.png" alt="@ Icon">
                     </div>
                     <h2>Email</h2>
                     <p>
@@ -67,19 +67,23 @@
                 <fieldset>
                     <legend>Get In Touch</legend>
                     <div class="nameemail">
+                        <label for="name"></label>
                         <input type="text" name="name" id="name" placeholder="Full name">
+                        <label for="email"></label>
                         <input type="text" name="email" id="email" placeholder="Email address">
                     </div>
                     <div>
-                        <label>Purpose of Message</label>
+                        <label for="general">Purpose of Message</label>
                         <div class="radio">
                             <input type="radio" name="general" id="general">
                             <p>General Inquiry</p>
                         </div>
+                        <label for="reservation"></label>
                         <div class="radio">
                             <input type="radio" name="reservation" id="reservation">
                             <p>Reservation Question</p>
                         </div>
+                        <label for="suggestion"></label>
                         <div class="radio">
                             <input type="radio" name="suggestion" id="suggestion">
                             <p>Website Suggestion</p>
@@ -90,8 +94,9 @@
                         <textarea rows="4" placeholder="Type your message here" name="message" id="message"></textarea>
                     </div>
                     <div class="subsribe">
-                        <input type="checkbox" name="newsletter" id="newesletter">
-                        <label>Please subscribe me to the monthly newsletter</label>
+                        <label for="newsletter">
+                        <input type="checkbox" name="newsletter" id="newsletter">
+                        Please subscribe me to the monthly newsletter</label>
                     </div>
                     <button class="message">Send Message</button>
                 </fieldset>
