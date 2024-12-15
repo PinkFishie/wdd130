@@ -145,6 +145,8 @@ h3 {
 }
 
 .center {
+    font-family: 'Lora';
+    color: var(--secondary-color);
     max-width: 1000px;
     text-align: center;
     font-size: 22pt;
